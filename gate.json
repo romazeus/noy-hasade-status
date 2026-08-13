@@ -1,4 +1,8 @@
 {
   "maintenance": false,
-  "text": ""
+  "text": "",
+  "hero": {
+    "video": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/hero-intro.mp4",
+    "poster": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/hero-intro-poster.jpg"
+  }
 }
