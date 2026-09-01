@@ -1,0 +1,16 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#274122"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-pantry-shelf"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M4 3 V21 M20 3 V21 M4 7 H20 M4 13.5 H20 M4 20 H20" />
+  <path d="M7.3 13.5 V11 C7.3 10 8 10 8 9 V8.8 H9 V9 C9 10 9.7 10 9.7 11 V13.5 M10.8 13.5 V11 C10.8 10 11.5 10 11.5 9 V8.8 H12.5 V9 C12.5 10 13.2 10 13.2 11 V13.5 M14.3 13.5 V11 C14.3 10 15 10 15 9 V8.8 H16 V9 C16 10 16.7 10 16.7 11 V13.5" />
+</svg>
