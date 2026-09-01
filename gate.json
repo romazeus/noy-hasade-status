@@ -14,16 +14,16 @@
     }
   },
   "icons": {
-    "16": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/icons/fruits.svg",
-    "17": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/icons/vegetables.svg",
-    "526": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/icons/new.svg",
-    "240": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/icons/fridge.svg",
-    "344": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/icons/bakery.svg",
-    "288": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/icons/pantry.svg",
-    "301": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/icons/deli.svg",
-    "192": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/icons/health.svg",
-    "276": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/icons/home.svg",
-    "663": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/icons/kids.svg",
-    "587": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/icons/back-to-school.svg"
+    "16": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/fruits.svg",
+    "17": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/vegetables.svg",
+    "526": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/new.svg",
+    "240": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/fridge.svg",
+    "344": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/bakery.svg",
+    "288": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/pantry.svg",
+    "301": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/deli.svg",
+    "192": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/health.svg",
+    "276": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/home.svg",
+    "663": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/kids.svg",
+    "587": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/back-to-school.svg"
   }
 }
