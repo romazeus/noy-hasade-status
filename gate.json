@@ -1,12 +1,16 @@
-{
-  "maintenance": false,
-  "text": "",
-  "hero": {
-    "video": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/hero-intro.mp4",
-    "poster": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/hero-intro-poster.jpg",
-    "title": "\u05e0\u05d5\u05d9 \u05d4\u05e9\u05d3\u05d4 \u2014 \u05e1\u05e8\u05d8\u05d5\u05df \u05ea\u05d3\u05de\u05d9\u05ea"
-  },
-  "tags": {
-    "587": "\u05dc\u05d6\u05de\u05df \u05de\u05d5\u05d2\u05d1\u05dc"
+  {
+    "maintenance": false,
+    "text": "",
+    "hero": {
+      "video": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/hero-intro.mp4",
+      "poster": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/hero-intro-poster.jpg",
+      "title": "\u05e0\u05d5\u05d9 \u05d4\u05e9\u05d3\u05d4 \u2014 \u05e1\u05e8\u05d8\u05d5\u05df \u05ea\u05d3\u05de\u05d9\u05ea"
+    },
+    "tags": {
+      "587": {
+        "text": "\u05dc\u05d6\u05de\u05df \u05de\u05d5\u05d2\u05d1\u05dc",
+        "bg": "#8C3A5A",
+        "ink": "#FFFFFF"
+      }
+    }
   }
-}
