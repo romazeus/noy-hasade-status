@@ -1,0 +1,17 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#274122"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-eye-spark"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M7 12 C 9 8.7 15 8.7 17 12 C 15 15.3 9 15.3 7 12 Z" />
+  <path d="M10.2 12a1.8 1.8 0 1 0 3.6 0a1.8 1.8 0 1 0 -3.6 0" fill="#274122" stroke="none" />
+  <path d="M18.93 8 L21.09 6.75 M16 5.07 L17.25 2.91 M12 4 L12 1.5 M8 5.07 L6.75 2.91 M5.07 8 L2.91 6.75 M5.07 16 L2.91 17.25 M8 18.93 L6.75 21.09 M12 20 L12 22.5 M16 18.93 L17.25 21.09 M18.93 16 L21.09 17.25" />
+</svg>
