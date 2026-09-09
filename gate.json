@@ -16,22 +16,22 @@
   "icons": {
     "16": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/fruits.svg",
     "17": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/vegetables.svg",
-    "526": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/new.svg",
+    "192": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/health.svg",
     "240": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/fridge.svg",
-    "344": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/bakery.svg",
+    "276": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/home.svg",
     "288": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/pantry.svg",
     "301": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/deli.svg",
-    "192": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/health.svg",
-    "276": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/home.svg",
-    "663": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/kids.svg",
-    "587": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/back-to-school.svg"
+    "344": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/bakery.svg",
+    "526": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/new.svg",
+    "587": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/back-to-school.svg",
+    "663": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/kids.svg"
   },
   "tiles": {
-    "16": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-fruits.png",
-    "17": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-vegetables.png",
-    "526": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-new.png",
-    "240": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-fridge.png",
-    "344": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-bakery.png",
-    "288": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-pantry.png"
+    "16": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-fruits-db52aa4b.png",
+    "17": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-vegetables-a82da678.png",
+    "240": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-fridge-c87abb80.png",
+    "288": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-pantry-2d26dfa0.png",
+    "344": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-bakery-389d9242.png",
+    "526": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-new-26f74c3a.png"
   }
 }
