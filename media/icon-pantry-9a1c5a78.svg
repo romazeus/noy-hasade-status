@@ -1,0 +1,15 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#274122"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon noy-filled noy-filled-pantry"
+>
+  <path fill="#274122" stroke="none" d="M7.3 13.5L7.3 11C7.3 10 8 10 8 9L8 8.8L9 8.8L9 9C9 10 9.7 10 9.7 11L9.7 13.5ZM10.8 13.5L10.8 11C10.8 10 11.5 10 11.5 9L11.5 8.8L12.5 8.8L12.5 9C12.5 10 13.2 10 13.2 11L13.2 13.5ZM14.3 13.5L14.3 11C14.3 10 15 10 15 9L15 8.8L16 8.8L16 9C16 10 16.7 10 16.7 11L16.7 13.5Z" />
+  <path d="M4 3L4 21M20 3L20 21M4 7L20 7M4 13.5L20 13.5M4 20L20 20" />
+</svg>
