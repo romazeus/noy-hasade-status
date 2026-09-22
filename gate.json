@@ -30,9 +30,35 @@
   "tiles": {
     "16": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-fruits-db52aa4b.png",
     "17": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-vegetables-a82da678.png",
+    "22": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-sales-3097c0c4.png",
+    "192": {
+      "url": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-health-4e47a771.jpg",
+      "fit": "photo"
+    },
     "240": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-fridge-c87abb80.png",
+    "266": {
+      "url": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-snacks-ada9846f.jpg",
+      "fit": "photo"
+    },
+    "276": {
+      "url": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-home-kitchen-f05b78af.jpg",
+      "fit": "photo"
+    },
     "288": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-pantry-2d26dfa0.png",
+    "301": {
+      "url": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-deli-88158b0b.jpg",
+      "fit": "photo"
+    },
     "344": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-bakery-389d9242.png",
-    "526": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-new-26f74c3a.png"
+    "526": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-new-26f74c3a.png",
+    "587": {
+      "url": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-back-to-school-90a533fb.jpg",
+      "fit": "photo"
+    },
+    "599": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-tishrei-2442f207.png",
+    "663": {
+      "url": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/tile-kids-0fce227b.jpg",
+      "fit": "photo"
+    }
   }
 }
