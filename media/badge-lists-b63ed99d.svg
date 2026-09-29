@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4E9A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- רשימות — the brand two-tone (Rom, 2026-09-29): the category set's line in a leaf
+       green on the brand's own lime. CHECKS, not dots — a clipboard with dots is iOS's
+       PASTE icon; with checks it is a shopping list (Rom's call). The checks sit on the
+       LEFT by his choice, having seen the right-to-left alternative. FULL-COLOUR —
+       never tinted (superCategories.ts). History: CHANGELOG. -->
+  <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2h-6z" fill="#C5F286"/>
+  <path d="M11 3h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2a2 2 0 0 1 2 -2z" fill="#FFFFFF"/>
+  <path d="M8 12l1 1l2 -2"/>
+  <path d="M14 12h2"/>
+  <path d="M8 16l1 1l2 -2"/>
+  <path d="M14 16h2"/>
+</svg>
