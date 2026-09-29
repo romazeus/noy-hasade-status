@@ -1,0 +1,19 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#274122"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <!-- The deals pill's glyph (מבצעים), 2026-09-29: the badge's starburst and % with
+       the yellow taken out, drawn on the category set's own line — 2 on this 24 grid,
+       the same weight as every other pill glyph. The pill tints it black by alpha. -->
+  <path d="M12 1.98 L14.52 4.26 L17.89 3.89 L18.59 7.21 L21.53 8.9 L20.14 12 L21.53 15.1 L18.59 16.79 L17.89 20.11 L14.52 19.74 L12 22.02 L9.48 19.74 L6.11 20.11 L5.41 16.79 L2.47 15.1 L3.86 12 L2.47 8.9 L5.41 7.21 L6.11 3.89 L9.48 4.26 Z" />
+  <path d="M7.57 9.39a1.92 1.92 0 1 0 3.84 0a1.92 1.92 0 1 0 -3.84 0Z" fill="#274122" stroke="none" />
+  <path d="M12.59 14.61a1.92 1.92 0 1 0 3.84 0a1.92 1.92 0 1 0 -3.84 0Z" fill="#274122" stroke="none" />
+  <path d="M9.53 16 L16 9.53 L14.47 8 L8 14.47 Z" fill="#274122" stroke="none" />
+</svg>
