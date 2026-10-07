@@ -1,0 +1,82 @@
+# Has the catalogue changed? Publishes `catalog.json`, a ~200 byte signal the app polls
+# (noy-hasade-app: src/state/catalogSignal.ts). A changed hash tells a phone parked on one
+# screen to re-read the catalogue; everything a moving shopper does already refreshes it.
+#
+# 🔴 THE SCRIPT IS A COPY. The original, with its tests, is `scripts/catalog-watch.ts` in the
+# private app repo, and `npm run check:catalog-watch` there fails while this copy differs.
+# Change it there first, then copy it here byte for byte. It imports nothing but Node built-ins
+# and reads only public catalogue endpoints, which is why it can live in a public repo.
+#
+# 🔴 MOVED HERE FROM THE APP REPO ON 2026-10-07. There it needed a personal token to write to this
+# repo; the token was never created, so all 49 runs failed and `catalog.json` never existed. Here
+# the built-in token writes to its own repo, and a public repo's Actions minutes are free.
+#
+# 🔴 IT WRITES `catalog.json` AND NOTHING ELSE. `gate.json` beside it is the store's maintenance
+# kill switch and the wallet and receipt flags; this job never stages it.
+#
+# GitHub's scheduler: runs only on the default branch, is best effort (delays of 10-15 minutes and
+# longer gaps under load), and is disabled after 60 days without activity in a public repo.
+
+name: catalog-watch
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+# Never let two runs overlap; a backed-up scheduler would otherwise race two pushes.
+concurrency:
+  group: catalog-watch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Compute the signal
+        id: watch
+        run: |
+          set +e
+          npx --yes tsx@4 scripts/catalog-watch.ts --compare catalog.json --out catalog.json
+          code=$?
+          set -e
+          # 100 = computed fine, nothing changed, nothing to publish.
+          if [ "$code" -eq 100 ]; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ "$code" -ne 0 ]; then exit "$code"; fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # 🔴 VALIDATED BEFORE IT IS PUSHED. A malformed document reaches every phone within
+      # minutes; the client treats it as "no signal", but garbage would still blind the channel
+      # until the next run.
+      - name: Publish
+        if: steps.watch.outputs.changed == 'true'
+        run: |
+          node -e "
+            const d = require('./catalog.json');
+            const ok = v => v && typeof v.hash === 'string' && v.hash.length > 0;
+            if (!ok(d.products) || !ok(d.order)) { console.error('refusing to publish', d); process.exit(1) }
+            if (d.products.count < 1000 || d.order.count < 100) {
+              console.error('refusing to publish an implausibly small catalogue', d); process.exit(1)
+            }
+          "
+          git config user.name  'catalog-watch'
+          git config user.email 'catalog-watch@users.noreply.github.com'
+          git add catalog.json
+          git commit -m "catalog signal $(date -u +%FT%TZ)"
+          # Other publishers (icons, tiles, the gate edited from a phone) push to main too, so a
+          # push can lose the race: rebase onto theirs and try again.
+          for attempt in 1 2 3; do
+            if git pull --rebase --quiet && git push; then exit 0; fi
+            sleep 5
+          done
+          exit 1
