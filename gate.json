@@ -58,5 +58,25 @@
     "favorites": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/badge-favorites-6d6b8bee.svg",
     "lists": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/badge-lists-b63ed99d.svg",
     "sales": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/badge-sales-ac0237e1.svg"
+  },
+  "giftCardArt": {
+    "cards": [
+      {
+        "amount": 200,
+        "art": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/giftcard-200-1b943b41.jpg"
+      },
+      {
+        "amount": 300,
+        "art": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/giftcard-300-8338815b.jpg"
+      },
+      {
+        "amount": 400,
+        "art": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/giftcard-400-08978652.jpg"
+      },
+      {
+        "amount": 500,
+        "art": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/giftcard-500-5eb1ac03.jpg"
+      }
+    ]
   }
 }
