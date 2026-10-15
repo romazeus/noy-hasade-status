@@ -78,5 +78,8 @@
         "art": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/giftcard-500-5eb1ac03.jpg"
       }
     ]
-  }
+  },
+  "giftCardsUsers": [
+    "76c47f6e7526327806c5b4743332cc9f0b803b874136b4a34723aa41cd8e64e0"
+  ]
 }
