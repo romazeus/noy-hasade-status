@@ -1,6 +1,6 @@
 {
-  "maintenance": true,
-  "text": "אנחנו מתחזקים את המערכות, באפליקציה ובאתר.\nנחזור אליכם בשעות הקרובות, טריים כמו תמיד.\nצוות נוי השדה",
+  "maintenance": false,
+  "text": "",
   "hero": {
     "video": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/hero-intro.mp4",
     "poster": "https://raw.githubusercontent.com/romazeus/noy-hasade-status/main/media/hero-intro-poster.jpg",
