@@ -85,5 +85,9 @@
   "hiddenPushes": [
     "אתם לא מוכנים למה שהכנו לכם! 🤩🍒"
   ],
-  "giftCardsTestFlight": true
+  "giftCardsTestFlight": true,
+  "experiments": [
+    { "id": "deal_tag_t", "salt": "deal-tag-t-1", "share": 100, "on": true, "startedAt": "2026-11-07" },
+    { "id": "upsell_page_t", "salt": "upsell-page-t-1", "share": 100, "on": true, "startedAt": "2026-11-07" }
+  ]
 }
