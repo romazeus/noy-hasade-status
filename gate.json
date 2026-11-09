@@ -91,6 +91,6 @@
     { "id": "deal_tag_ios", "salt": "deal-tag-ios-1", "share": 100, "on": true, "startedAt": "2026-11-09" },
     { "id": "upsell_page_t", "salt": "upsell-page-t-1", "share": 100, "on": true, "startedAt": "2026-11-07" },
     { "id": "upsell_page_ios", "salt": "upsell-page-ios-1", "share": 100, "on": true, "startedAt": "2026-11-09" },
-    { "id": "cart_recs", "salt": "cart-recs-1", "share": 100, "on": true, "startedAt": "2026-11-09", "users": ["fea6456796f53b1ca970c9709fbb12b3535597f22f18bbb8263dfdeca4d92162", "f08a7d4bfc014649848ad402b4d6dea6e336338e601e93c49bd9b894d2cd72d4"] }
+    { "id": "cart_recs", "salt": "cart-recs-1", "share": 0, "on": true, "startedAt": "2026-11-09", "users": ["fea6456796f53b1ca970c9709fbb12b3535597f22f18bbb8263dfdeca4d92162", "f08a7d4bfc014649848ad402b4d6dea6e336338e601e93c49bd9b894d2cd72d4"] }
   ]
 }
