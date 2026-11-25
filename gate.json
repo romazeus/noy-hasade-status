@@ -100,7 +100,8 @@
     { "id": "gpay_android", "salt": "gpay-android-1", "share": 100, "on": true, "startedAt": "2026-11-17", "users": ["fea6456796f53b1ca970c9709fbb12b3535597f22f18bbb8263dfdeca4d92162", "f08a7d4bfc014649848ad402b4d6dea6e336338e601e93c49bd9b894d2cd72d4"] },
     { "id": "gift_deal_ios", "salt": "gift-deal-ios-1", "share": 0, "on": true, "startedAt": "2026-11-25", "users": ["fea6456796f53b1ca970c9709fbb12b3535597f22f18bbb8263dfdeca4d92162", "f08a7d4bfc014649848ad402b4d6dea6e336338e601e93c49bd9b894d2cd72d4", "04fbf654852bf3c93e71d266dfd45cf907e9392777f94c2f60f50b19a43cf329"] },
     { "id": "gift_deal_android", "salt": "gift-deal-android-1", "share": 0, "on": true, "startedAt": "2026-11-25", "users": ["fea6456796f53b1ca970c9709fbb12b3535597f22f18bbb8263dfdeca4d92162", "f08a7d4bfc014649848ad402b4d6dea6e336338e601e93c49bd9b894d2cd72d4", "04fbf654852bf3c93e71d266dfd45cf907e9392777f94c2f60f50b19a43cf329"] },
-    { "id": "gift_deal_web", "salt": "gift-deal-web-1", "share": 0, "on": true, "startedAt": "2026-11-25", "users": ["fea6456796f53b1ca970c9709fbb12b3535597f22f18bbb8263dfdeca4d92162", "f08a7d4bfc014649848ad402b4d6dea6e336338e601e93c49bd9b894d2cd72d4", "04fbf654852bf3c93e71d266dfd45cf907e9392777f94c2f60f50b19a43cf329"] }
+    { "id": "gift_deal_web", "salt": "gift-deal-web-1", "share": 0, "on": true, "startedAt": "2026-11-25", "users": ["fea6456796f53b1ca970c9709fbb12b3535597f22f18bbb8263dfdeca4d92162", "f08a7d4bfc014649848ad402b4d6dea6e336338e601e93c49bd9b894d2cd72d4", "04fbf654852bf3c93e71d266dfd45cf907e9392777f94c2f60f50b19a43cf329"] },
+    { "id": "duo_bar_region", "salt": "duo-bar-region-1", "share": 0, "on": true, "startedAt": "2026-11-25", "users": ["fea6456796f53b1ca970c9709fbb12b3535597f22f18bbb8263dfdeca4d92162", "f08a7d4bfc014649848ad402b4d6dea6e336338e601e93c49bd9b894d2cd72d4", "04fbf654852bf3c93e71d266dfd45cf907e9392777f94c2f60f50b19a43cf329"] }
   ],
   "giftStyle": { "fill": "#8E3FC0", "ink": "#FFFFFF", "inkOnLight": "#8E3FC0" }
 }
